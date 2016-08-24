@@ -1,0 +1,405 @@
+/* HEADER*/
+
+
+.Header{
+    background-image: url('portada.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    height: 1.3em;
+    padding:1.2em 0;
+}
+
+.HeaderMenu{
+    
+    text-align: right;
+    height: 3.75em;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;    
+    opacity: 0.9;
+}
+
+header {
+	color: white;
+	padding: 1em 3em;
+}
+
+nav{
+	float: right;
+	/*font: 20px Calisto MT;*/
+	font-family: Tahoma;
+	
+}
+
+
+
+nav ul{
+	padding: 0;
+	margin: 0;
+}
+
+
+nav li{
+	
+	line-height: 50px;
+	border-radius: 4px;
+    display: inline-block;
+    margin-left: 2em;
+    margin-right: 1em;
+    padding-left: 0;
+
+/*    font-size: 1.5em;
+	list-style-type: none;
+	display: inline-block;
+	vertical-align: top;
+	margin-left: 1em;
+	line-height: 37px;*/
+}
+
+nav a{
+	color:  white;
+	text-decoration: none;
+	margin-left: 15px;
+	transition: color 1s ease;
+	/* son 3 valores -- a que-- cuanto tiempo--- en que forma*/
+}
+
+nav a:hover{
+	color:  #f74caa;
+}
+
+
+.fa-bars{
+	display: none;
+	color: #e83aae;
+}
+
+
+/* BODY */
+body{
+	background-repeat: top right no-repeat;
+    background-attachment: fixed;
+	background-image: url(dark_tint.png), url(bokeh_car_lights_bg.jpg);
+	overflow-x: hidden;
+    }
+
+/* BANNER */
+
+.banner {
+/*		background-image: url(dark_tint.png), url(bokeh_car_lights_bg.jpg);*/
+		background-position: center center;
+		background-size: cover;
+		background-color: transparent;
+		color: #ffffff;
+		padding: 7em 0em 4em;
+		text-align: center;
+	}
+
+.sectionbaner{
+	padding: 40px 70px;
+	background-color: pink;
+}
+
+.banner h2 {
+			color: #ffffff;
+			font-size: 3em;
+			line-height: 1em;
+			margin: 0 0 0.5em 0;
+			padding: 0;
+		}
+/* ------------USANDO FUENTES DE GOOGLE*/
+@font-face {
+  font-family: 'Lobster';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Lobster'), local('Lobster-Regular'), url(cycBf3mfbGkh66G5NhszPQ.woff2) format('woff2'); /* http://fonts.gstatic.com/s/lobster/v18/*/
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000;
+}
+
+@font-face {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Lato Regular'), local('Lato-Regular'), url(http://fonts.gstatic.com/s/lato/v11/1YwB1sO8YE1Lyjf12WNiUA.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000;
+}
+
+.header-w__title{
+          font-size: 800%;
+          font-family: 'Lobster';
+          margin:0 0;
+        }
+
+.header-w__title2 {
+          font-size: 200%;
+          font-family: 'Lobster';
+          margin:0;
+        }
+
+.titulo {
+          font-size: 400%;
+          font-family: 'Lobster';
+          margin:0;
+        }
+
+
+
+.detalle{
+          font-size: 100%;
+          font-family: 'Lato';
+          margin:0;
+}
+
+.detalle2{
+          font-size: 120%;
+          font-family: 'Lato';
+          margin:0;
+          margin-top: 40px;
+          margin-bottom: 20px;
+}
+/*============================================================================= */
+
+.banner p{
+			font-size: 1em;
+			color: #ffffe6;
+			font-family: Calibri;
+			line-height: 1px;
+
+		}
+
+/* .banner .img{
+   /* border: 5px solid #ccc;
+    /*float: left;
+    margin: 15px;
+    border: 1px solid white;
+    border-radius: 50%;
+    margin: 15px;
+    height: 200px;
+    float: center;
+    -webkit-transition: margin 1s ease-out;
+    -moz-transition: margin 1s ease-out;
+    -o-transition: margin 1s ease-out;
+}
+ 
+.banner .img:hover {
+    margin-top: 2px;
+}		
+*/
+.banner .img{
+   	border: 5px solid #ccc;
+    margin: 15px;
+    border: 1px solid white;
+    border-radius: 50%;
+    margin: 15px;
+    height: 200px;
+}
+.banner .img:hover{
+
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -o-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1)
+}
+
+.descripcion {
+	text-align: center;
+}
+/*===================================TRABAJOS */
+.trabajo {
+		background-color: #CCCC99;
+		background-position: center center;
+		background-size: cover;
+		color: white;
+		padding: 3em 0em 3em;
+		text-align: center;
+}
+
+.trabajo h2{
+	color:  #FF66CC;
+}
+
+.trabajo h3{
+	color:  #999999;
+}
+
+.trabajo p{
+	color: #CC3399;
+}
+.trabajo img{
+	border: 9px solid white;
+    height: 30%;
+    width: 50%;
+    margin: 15px;
+    float: center;
+
+    -webkit-transition: margin 0.5s ease-out;
+    -moz-transition: margin 0.5s ease-out;
+    -o-transition: margin 0.5s ease-out;
+}
+
+.trabajo .Work-item{
+    display: inline-block;
+    margin-bottom: 1.8em;
+}
+
+.trabajo img:hover {
+    margin-top: 2px;
+}	
+/*========================================= REDES SOCIALESSS */
+.RSociales{
+	margin: 0;
+}
+.RSocial {
+		background-color: #ffcce6;
+		background-position: center center;
+		background-size: cover;
+		color: #ffffff;
+		padding: 3em 0em 6em;
+		text-align: center;
+}
+
+.RSocial h4{
+	color: #222211;
+	font-family: Calibri;
+}
+
+.Caja{
+    background: #ff80b3;
+    border-radius: 2em;
+    color: white;
+    margin-right: .5em;
+    padding: .5em 1em;
+    text-decoration: none;
+    transition: background 1s ease;
+    transition: color 1s ease;
+}
+
+.Github{
+    background: #ff80b3;
+}
+
+.Twitter{
+    background:  #ff3385;
+}
+
+.Youtube{
+    background:  #ffb84d;
+}
+
+.Github:hover{
+	background:  #cc0066;
+	color: #293d3d;
+}
+
+.Twitter:hover{
+	background:  #cc3399;
+	color:   #293d3d;
+}
+.Youtube:hover{
+	background:  #ff9966;
+	color:   #293d3d;
+}
+
+/*========================================== FOOTER */
+.Footer{
+    background-image: url('footer.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding: 2em 0;
+    text-align: center;
+}
+
+
+h4 .titulo2 {
+          font-size: 200%;
+          font-family: 'Lobster';
+          margin:0;
+        }
+
+.Footer-form{
+    text-align: center;
+    display: inline-block;
+}
+
+.Footer-izquierda{
+    display: inline-block;
+    width: 32em;
+    text-align: center;
+    vertical-align: top;	
+	font: 14px sans-serif;
+
+}
+
+.Footer-title{
+    color: white;
+}
+
+.Footer-formInput,
+.Footer-textarea{
+    background: white;
+    border: none;
+    display: block;
+    border-radius: 2em;
+    padding: .5em;
+    margin: 0 auto 1em;
+}
+
+.Footer .Footer-description{
+	color:white;
+	font: italic 14px sans-serif;
+}
+.Footer-textarea{
+    resize: none;
+}
+
+.Footer-button{
+    background: #ff33ff;
+    border-radius: 1em;
+    border: none;
+    color: white;
+    padding: .5em 1em;    
+    transition: background 1s ease;
+}
+
+.Footer-button:hover{
+	background:  #990099;
+}
+
+
+/*================ MENU HAMBURGUESA */
+@media screen and (max-width: 860px){
+	nav{
+		display: none;
+		transition:all .5s ease;
+	}
+
+	nav.mostrar{
+		display: block;
+		position: absolute;
+		top: 50px;
+		left: 0;
+		width: 100%;
+	}
+
+	nav.mostrar li{
+		display: block;
+		padding-left: 1em;
+		line-height: 20px;
+		background-color: transparent;
+	
+	}
+
+	.fa-bars{
+		display: inline-block;
+		float: right;
+		margin-top: 8px;
+		font-size: 1.5em;
+		margin-right: 15px;
+	}
+}
+
